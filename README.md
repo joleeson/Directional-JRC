@@ -2,14 +2,21 @@
 
 Supplementary material for the following paper:
   
-[J. Lee, Y. Cheng, D. Niyato, Y. L. Guan and G. David González, "Deep Reinforcement Learning for Time Allocation and Directional Transmission in Joint Radar-Communication," 2022 IEEE Wireless Communications and Networking Conference (WCNC), 2022, pp. 2559-2564, doi: 10.1109/WCNC51071.2022.9771580.](https://ieeexplore.ieee.org/abstract/document/9771580)
+- J. Lee, Y. Cheng, D. Niyato, Y. L. Guan and G. David González, "[Deep Reinforcement Learning for Time Allocation and Directional Transmission in Joint Radar-Communication](https://ieeexplore.ieee.org/abstract/document/9771580)," 2022 IEEE Wireless Communications and Networking Conference (WCNC), 2022, pp. 2559-2564, doi: 10.1109/WCNC51071.2022.9771580
 
-Also available on [Digital Repository of NTU](https://hdl.handle.net/10356/155437).
+   Also available on [Digital Repository of NTU](https://hdl.handle.net/10356/155437).
 
 Current strategies for joint radar-communication (JRC) rely on prior knowledge of the communication and radar systems within the vehicle network. In this paper, we propose a framework for intelligent vehicles to conduct JRC, with minimal prior knowledge, in an environment where surrounding vehicles execute radar detection periodically, which is typical in contemporary protocols. We introduce a metric on the usefulness of data to help the vehicle decide what, and to whom, data should be transmitted. The problem framework is cast as a Markov Decision Process (MDP). We show that deep reinforcement learning results in superior performance compared to nonlearning algorithms. In addition, experimental results show that the trained deep reinforcement learning agents are robust to changes in the number of vehicles in the environment.
 
 ## Getting started
-Install the dependencies listed in 'requirements.txt'.
+Install the dependencies listed in `requirements.txt`.
+
+## The JRC "Game" Environment
+Intelligent vehicles with JRC functionalities traverse through the simulated dual carriageway setting as programmed in `beamformJRCenv.py`. For any experiments run in this environment, real-time animation can be turned on by setting the `--render` flag.
+
+<p align="center">
+    <img src="animation_screenshot.png" width="500px"/>
+</p>
 
 ## Running Experiments
 Experiemnts may be run from the command line. Agents using the "Heuristic" or "Round Robin" policies can be run using the examples below:
