@@ -6,7 +6,7 @@ Supplementary material for the following paper:
 
    Also available on [Digital Repository of NTU](https://hdl.handle.net/10356/155437).
 
-Current strategies for joint radar-communication (JRC) rely on prior knowledge of the communication and radar systems within the vehicle network. In this paper, we propose a framework for intelligent vehicles to conduct JRC, with minimal prior knowledge, in an environment where surrounding vehicles execute radar detection periodically, which is typical in contemporary protocols. We introduce a metric on the usefulness of data to help the vehicle decide what, and to whom, data should be transmitted. The problem framework is cast as a Markov Decision Process (MDP). We show that deep reinforcement learning results in superior performance compared to nonlearning algorithms. In addition, experimental results show that the trained deep reinforcement learning agents are robust to changes in the number of vehicles in the environment.
+Current strategies for joint radar-communication (JRC) rely on prior knowledge of the communication and radar systems within the vehicle network. In this paper, we propose a framework for intelligent vehicles to conduct JRC, with minimal prior knowledge, in an environment where surrounding vehicles execute radar detection periodically, which is typical in contemporary protocols. We introduce a metric on the usefulness of data to help the vehicle decide what, and to whom, data should be transmitted. The problem framework is cast as a Markov Decision Process (MDP). We show that deep reinforcement learning results in superior performance compared to non-learning algorithms. In addition, experimental results show that the trained deep reinforcement learning agents are robust to changes in the number of vehicles in the environment.
 
 ## Getting started
 Install the dependencies listed in `requirements.txt`.
@@ -19,7 +19,7 @@ Intelligent vehicles with JRC functionalities traverse through the simulated dua
 </p>
 
 ## Running Experiments
-Experiemnts may be run from the command line. Agents using the "Heuristic" or "Round Robin" policies can be run using the examples below:
+Experiments may be run from the command line. Agents using the "Heuristic" or "Round Robin" policies can be run using the examples below:
 
 Heuristic
 ```
