@@ -16,22 +16,16 @@ J. Lee, Y. Cheng, D. Niyato, Y. L. Guan and G. David González,
 import numpy as np
 import torch
 import torch.nn as nn
-import torch.optim as optim
-import torch.nn.functional as F
 import gym
 import logz
 import os
 import time
 import inspect
-from multiprocessing import Process
-from torch.distributions import Categorical, Normal
-from torch.distributions.multinomial import Multinomial
 from typing import Callable, Union
 
 from trainPPO_JRC import Agent
 
 from beamformJRCenv import Beamform_JRC
-import json
 
 
 # In[]

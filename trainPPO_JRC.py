@@ -23,7 +23,9 @@ import os
 import time
 import inspect
 from torch.distributions import Categorical, Normal
-from beamformJRCenv_ve import Beamform_JRC
+from typing import Callable, Union
+
+from beamformJRCenv import Beamform_JRC
 
 
 # In[]
