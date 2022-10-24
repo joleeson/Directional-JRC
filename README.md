@@ -53,7 +53,7 @@ python trainPPO_JRC.py beamformJRC_4lane --w_comm 1 --w_rad 8 --num_lanes 4 --nu
 In the extended multi-agent scenario, the vehicular network may be represented as a graph. We consequently apply the GNN architecture as shown.
 
 <p align="center">
-    <img src="Multi-Agent-GNN/Graph2.png" width="300px"/><img src="Multi-Agent-GNN/GNN2.png" width="300px"/>
+    <img src="Multi-Agent-GNN/Graph2.jpg" width="300px"/><img src="Multi-Agent-GNN/GNN2.jpg" width="300px"/>
 </p>
 
 Files for the multi-agent problems may be found in the folder titled "[Multi-Agent-GNN](Multi-Agent-GNN)".
