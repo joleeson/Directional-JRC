@@ -1,6 +1,6 @@
-# Scheduling Directional Joint Radar-Communication
+# Scheduling Directional Joint Radar-Communication with Graph Neural Networks
 
-Supplementary material for the following paper:
+Supplementary material for the following publications:
   
 - J. Lee, Y. Cheng, D. Niyato, Y. L. Guan and G. David González, "[Deep Reinforcement Learning for Time Allocation and Directional Transmission in Joint Radar-Communication](https://ieeexplore.ieee.org/abstract/document/9771580)," 2022 IEEE Wireless Communications and Networking Conference (WCNC), 2022, pp. 2559-2564, doi: 10.1109/WCNC51071.2022.9771580.
 
@@ -53,7 +53,7 @@ python trainPPO_JRC.py beamformJRC_4lane --w_comm 1 --w_rad 8 --num_lanes 4 --nu
 In the extended multi-agent scenario, the vehicular network may be represented as a graph. We consequently apply a GNN architecture.
 
 <p align="center">
-    <img src="Multi-Agent-GNN/Graph2.jpg" width="300px"/><img src="Multi-Agent-GNN/Network_Cooperative.jpg" width="300px"/>
+    <img src="Multi-Agent-GNN/Graph2.jpg" width="300px"/><img src="Multi-Agent-GNN/Network_Cooperative.jpg" width="350px"/>
 </p>
 
 Files for the multi-agent problems may be found in the folder titled "[Multi-Agent-GNN](Multi-Agent-GNN)".
