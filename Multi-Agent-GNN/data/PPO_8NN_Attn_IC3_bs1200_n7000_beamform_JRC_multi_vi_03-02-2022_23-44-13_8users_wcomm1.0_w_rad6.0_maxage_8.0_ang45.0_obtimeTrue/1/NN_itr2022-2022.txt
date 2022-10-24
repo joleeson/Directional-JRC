@@ -1,0 +1,2 @@
+Iteration: 2022
+ Average reward: 921.210693359375

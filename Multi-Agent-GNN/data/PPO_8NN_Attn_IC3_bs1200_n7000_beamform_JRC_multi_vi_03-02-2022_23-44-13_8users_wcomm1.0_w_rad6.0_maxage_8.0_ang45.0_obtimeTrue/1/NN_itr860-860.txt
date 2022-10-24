@@ -1,0 +1,2 @@
+Iteration: 860
+ Average reward: 267.1385498046875

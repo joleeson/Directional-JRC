@@ -81,6 +81,9 @@ python trainPPO_GCN_JRC.py beamform_JRC_multi --gnn 2 --knn 8 --w_comm 1 --w_rad
 #### Flags Explained
 
 `--recurrent`		: use recurrent GRU neurons in the first hidden layer of the policy and value neural networks
+
 `--ic3net`			: enable neighbour-selection in the GNN framework
+
 `--gnn_pooling transformer`	: use scaled dot-product attention as the message-pooling function in the GNN
+
 `-- knn [-]`		: set the number of neighbours each agent exchanges messages with in the GNN framework. For independent learning, we set `-knn 0`

@@ -1,0 +1,2 @@
+Iteration: 2018
+ Average reward: 808.1528930664062
